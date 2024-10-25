@@ -9,3 +9,13 @@ mybatis:
   configuration:
     map-underscore-to-camel-case: true
     #开启驼峰命名和下划线命名的自动转换
+
+# swagger访问路径 http://localhost:8080/swagger-ui/index.html
+springdoc:
+  # 开启/禁用 Swagger 文档生成（仅在生产环境中建议禁用）
+  api-docs:
+    enabled: true
+  swagger-ui:
+    enabled: true
+
+
